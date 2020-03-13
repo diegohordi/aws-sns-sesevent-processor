@@ -1,0 +1,21 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "XXXX",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "22b80b92-fdea-4c2c-8f9d-bdfb0c7bf324",
+        "TopicArn": "XXXX",
+        "Subject": "My First Message",
+        "Message": "{\n  \"eventType\": \"Send\",\n  \"mail\": {\n    \"timestamp\": \"2020-03-11T16:08:22.184Z\",\n    \"source\": \"xxxx@xxx.com\",\n    \"sourceArn\": \"xxxx\",\n    \"sendingAccountId\": \"xxxxx\",\n    \"messageId\": \"01000170ca5aa1a8-62c8b888-8b7f-45e9-b3d9-0d03f0a39c61-000000\",\n    \"destination\": [\n      \"xxxx@xxx.com\"\n    ],\n    \"headersTruncated\": false,\n    \"headers\": [\n      {\n        \"name\": \"From\",\n        \"value\": \"xxxx@xxx.com\"\n      },\n      {\n        \"name\": \"To\",\n        \"value\": \"xxxx@xxx.com\"\n      },\n      {\n        \"name\": \"Subject\",\n        \"value\": \"Just a test\"\n      },\n      {\n        \"name\": \"MIME-Version\",\n        \"value\": \"1.0\"\n      },\n      {\n        \"name\": \"Content-Type\",\n        \"value\": \"text/html; charset=UTF-8\"\n      },\n      {\n        \"name\": \"Content-Transfer-Encoding\",\n        \"value\": \"7bit\"\n      }\n    ],\n    \"commonHeaders\": {\n      \"from\": [\n        \"xxxx@xxx.com\"\n      ],\n      \"to\": [\n        \"xxxx@xxx.com\"\n      ],\n      \"messageId\": \"01000170ca5aa1a8-62c8b888-8b7f-45e9-b3d9-0d03f0a39c61-000000\",\n      \"subject\": \"Just a test\"\n    },\n    \"tags\": {\n      \"ses:operation\": [\n        \"SendEmail\"\n      ],\n      \"ses:configuration-set\": [\n        \"sns\"\n      ],\n      \"ses:source-ip\": [\n        \"0.0.0.0\"\n      ],\n      \"ses:from-domain\": [\n        \"gmail.com\"\n      ],\n      \"ses:caller-identity\": [\n        \"aws-ses\"\n      ],\n      \"UUID\": [\n        \"b8d9a78e-2fed-4f91-b18a-3400fea2f1ae\"\n      ]\n    }\n  },\n  \"send\": {}\n}\n",
+        "Timestamp": "2012-05-02T00:54:06.655Z",
+        "SignatureVersion": "1",
+        "Signature": "EXAMPLEw6JRN...",
+        "SigningCertURL": "XXXX",
+        "UnsubscribeURL": "XXXX"
+      }
+    }
+  ]
+}
